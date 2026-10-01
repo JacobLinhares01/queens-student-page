@@ -11,19 +11,18 @@ h2 { color: var(--blue); font-size: 1.6rem; }
 /* example: make your photo round */
 img { border-radius: 12px; }
 
-/* Navigation Button Style */
-header nav a, .back-link {
+/* White button styling for back links */
+a[href="index.html"] {
   display: inline-block;
-  background-color: #ffffff;
-  color: #002452;
+  background-color: #ffffff !important;
+  color: #002452 !important;
   padding: 8px 14px;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  margin-bottom: 15px;
 }
 
-header nav a:hover, .back-link:hover {
-  background-color: #fabd0f; /* Queen's Gold on hover */
-  color: #002452;
+a[href="index.html"]:hover {
+  background-color: #fabd0f !important; /* Queen's Gold on hover */
 }
