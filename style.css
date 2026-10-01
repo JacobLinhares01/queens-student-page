@@ -14,8 +14,8 @@ img { border-radius: 12px; }
 /* White button styling for back links */
 a[href="index.html"] {
   display: inline-block;
-  background-color: #ffffff !important;
-  color: #002452 !important;
+  background-color: #ffffff;
+  color: #002452;
   padding: 8px 14px;
   border-radius: 6px;
   font-weight: bold;
@@ -24,5 +24,5 @@ a[href="index.html"] {
 }
 
 a[href="index.html"]:hover {
-  background-color: #fabd0f !important; /* Queen's Gold on hover */
+  background-color: #fabd0f ; /* Queen's Gold colour on hover */
 }
