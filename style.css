@@ -10,3 +10,20 @@ a { color: var(--blue); }
 h2 { color: var(--blue); font-size: 1.6rem; }
 /* example: make your photo round */
 img { border-radius: 12px; }
+
+/* Navigation Button Style */
+header nav a, .back-link {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #002452;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+header nav a:hover, .back-link:hover {
+  background-color: #fabd0f; /* Queen's Gold on hover */
+  color: #002452;
+}
