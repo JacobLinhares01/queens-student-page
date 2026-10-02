@@ -8,7 +8,7 @@ a { color: var(--purple); }
 a:hover {color: var(--blue);}
 /* === personalize below by changing colors or spacing === */
 /* example: make headings blue and a bit larger */
-h1, h2, h3 {color: var(--purple); }
+h2, h3 {color: var(--purple); }
 /* example: make your photo round */
 img { border-radius: 12px; }
 
