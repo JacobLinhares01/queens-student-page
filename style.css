@@ -17,11 +17,11 @@ img { border-radius: 12px; }
   flex-direction: row;
   justify-content: space-between; /* or center / space-around */
   align-items: center;
-  gap: 10px; /* spacing between images */
+  gap: 5px; /* spacing between images */
 }
 
 .image-row img {
-  max-width: 32%; /* ensures 3 images fit side-by-side with gaps */
+  max-width: 50%; /* ensures 3 images fit side-by-side with gaps */
   height: auto;
 }
 
