@@ -12,6 +12,8 @@ h2, h3 {color: var(--purple); }
 /* example: make your photo round */
 img { border-radius: 12px; }
 
+/* allowing for multiply images to rest on the same horizontal line */
+
 .image-row {
   display: flex;
   flex-direction: row;
@@ -25,7 +27,7 @@ img { border-radius: 12px; }
   height: auto;
 }
 
-/* White button styling for back links */
+/* Back Links styling */
 a[href="index.html"] {
   display: inline-block;
   background-color: var(--purple);
