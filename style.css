@@ -21,7 +21,7 @@ img { border-radius: 12px; }
 }
 
 .image-row img {
-  max-width: 50%; /* ensures 3 images fit side-by-side with gaps */
+  max-width: 200px; /* ensures 3 images fit side-by-side with gaps */
   height: auto;
 }
 
