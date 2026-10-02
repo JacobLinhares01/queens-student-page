@@ -12,6 +12,19 @@ h1, h2, h3 {color: var(--purple); }
 /* example: make your photo round */
 img { border-radius: 12px; }
 
+.image-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* or center / space-around */
+  align-items: center;
+  gap: 10px; /* spacing between images */
+}
+
+.image-row img {
+  max-width: 32%; /* ensures 3 images fit side-by-side with gaps */
+  height: auto;
+}
+
 /* White button styling for back links */
 a[href="index.html"] {
   display: inline-block;
